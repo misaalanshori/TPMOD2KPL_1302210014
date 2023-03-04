@@ -6,5 +6,15 @@ namespace TPMOD2KPL_1302210014
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.label1.Text = "Halo " + this.textBox1.Text;
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
